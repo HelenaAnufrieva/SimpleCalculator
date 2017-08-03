@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="newlesson21:war exploded">
+    <output-path>$PROJECT_DIR$/target/lesson21</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="newlesson21" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api:2.5-20081211" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/lesson21/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="newlesson21/web/Web" />
+    </root>
+  </artifact>
+</component>
